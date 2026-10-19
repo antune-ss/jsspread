@@ -1,0 +1,12 @@
+# Ignora todo o código-fonte (O Google hospeda o código, o NPM só precisa dos tipos)
+src/
+dist/
+
+# Ignora configurações locais e segredos
+.clasp.json
+appsscript.json
+vite.config.ts
+tsconfig.json
+
+node_modules/
+.env

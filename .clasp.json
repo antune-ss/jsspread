@@ -1,0 +1,8 @@
+{
+  "scriptId": "1mJmoX64rhmKabUDVYfPVt5xqaXEbS1JRTJCCMaTcqr9A5v_cmLiIo8ci",
+  "rootDir": "./dist",
+  "library": {
+    "namespace": "jsspread",
+    "name": "JSspread"
+  }
+}

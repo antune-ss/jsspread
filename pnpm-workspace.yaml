@@ -1,0 +1,2 @@
+overrides:
+  '@antunes_s/clasp-types': link:../../clasp-types

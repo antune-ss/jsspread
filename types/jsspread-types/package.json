@@ -1,0 +1,13 @@
+{
+  "name": "jsspread-types",
+  "version": "1.0.0",
+  "description": "Typescript definitions for JSspread",
+  "main": "index.js",
+  "scripts": {},
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "type": "module",
+  "devDependencies": {},
+  "types": "./index.d.ts"
+}

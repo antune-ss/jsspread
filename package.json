@@ -1,0 +1,29 @@
+{
+  "name": "jsspread",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite build --watch",
+    "build": "vite build",
+    "types": "clasp-types -s ./src -o ./types/ && clasp-types --client -s ./src -o ./types/",
+    "deploy": "pnpm run types && pnpm run build && clasp push",
+    "patch": "pnpm version patch",
+    "minor": "pnpm version minor",
+    "major": "pnpm version major",
+    "preversion": "pnpm run types && pnpm run build",
+    "postversion": "git push && git push --tags"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "devDependencies": {
+    "@antunes_s/clasp-types": "^2.0.5",
+    "@types/google-apps-script": "^2.0.12",
+    "typedoc": "0.28.20",
+    "typescript": "^5.9.3",
+    "vite": "^8.2.2",
+    "vite-plugin-gas": "^0.5.2"
+  }
+}
